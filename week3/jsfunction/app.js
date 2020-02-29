@@ -21,3 +21,12 @@ function isEvenOrOdd(num) {
 } console.log(isEvenOrOdd (2))
 
 //////
+var str1 = 'I need to go home tonight'
+function string(str1) {
+    console.log(str1.length)
+    if(str1.length >= 20){
+        return str1.concat(str1)
+    } else {
+        return 
+    }
+} string('functions')

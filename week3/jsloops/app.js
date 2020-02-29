@@ -14,12 +14,12 @@ var officeItems = [
 ];
 
 // var search = "computer";
- 
+
 // var count = officeItems.reduce(function(n, val) {
 //   return n + (val === search);
 // }, 0);
-
 // console.log(count);
+
 
 // function countItemOnList(nameOfList, itemToBeSearched)
 // {
@@ -87,47 +87,19 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
 
 //step 4)__
 
-    //1 I couldnt get it to say she or him, I couldnt figure out how?
-
-   
-for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
-
-   var x = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === ('male' || 'female'));{
-    
-    if(peopleWhoWantToSeeMadMaxFuryRoad[i].gender === 'male'){
-    console.log('him')
-    } else {
-    console.log('she')
-    }
-  }
-    if (peopleWhoWantToSeeMadMaxFuryRoad[0].age > 18) {
-      console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max" + " don't let " + peopleWhoWantToSeeMadMaxFuryRoad[i].gender,x + " in.")
-    } else {
-      console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max" + " don't let " + peopleWhoWantToSeeMadMaxFuryRoad[i].gender,x + " in.")
-    }
-}
-
-////////////////
-
-//2
+// var gender = ''
 // for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
-// if(peopleWhoWantToSeeMadMaxFuryRoad[i].gender === 'male'){
-//     console.log('him')
-// } else if (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === 'female') {
-//     console.log('she')
-// }
-// }
+//   if (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === 'male') {
+//     gender = 'him'
+//   } else {
+//     gender = 'she'
+//   }
 
-///////////
-//3
-
-// for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
-
-//     if (peopleWhoWantToSeeMadMaxFuryRoad[0].age > 18) {
-//         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max" + " don't let " + peopleWhoWantToSeeMadMaxFuryRoad[i].gender + " in.")
-//     } else {
-//         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max" + " don't let " + peopleWhoWantToSeeMadMaxFuryRoad[i].gender + " in.")
-//     }
+//   if (peopleWhoWantToSeeMadMaxFuryRoad[0].age > 18) {
+//     console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max" + " don't let " + gender + " in.")
+//   } else {
+//     console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max" + " don't let " + gender + " in.")
+//   }
 // }
 
 // step 5)__
@@ -140,5 +112,17 @@ for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
 //     }
 // }
 
-/// Extra
+/// Extra 
 
+///only one more problem
+
+// var light = [
+//   [2, 5, 435, 4, 3],
+//   [1, 1, 1, 1, 3],
+//   [9, 3, 4, 2]
+// ];
+
+
+// let {
+
+  // isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!'); /// Tenary Operations
