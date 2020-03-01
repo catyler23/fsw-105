@@ -67,23 +67,23 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
 
 // step 2)__
 
-// for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
-//   if (peopleWhoWantToSeeMadMaxFuryRoad[i].age > 18) {
-//     console.log("They can go to the movies");
-//   } else {
-//     console.log("They can't go to the movies");
-//   }
-// }
+for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
+  if (peopleWhoWantToSeeMadMaxFuryRoad[i].age > 18) {
+    console.log("They can go to the movies");
+  } else {
+    console.log("They can't go to the movies");
+  }
+}
 
 // step 3)__
 
-// for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
-//     if (peopleWhoWantToSeeMadMaxFuryRoad[0].age > 18) {
-//         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max")
-//     } else {
-//         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max")
-//     }
-// }
+for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
+    if (peopleWhoWantToSeeMadMaxFuryRoad[0].age > 18) {
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max")
+    } else {
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max")
+    }
+}
 
 //step 4)__
 
