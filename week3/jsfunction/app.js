@@ -1,9 +1,9 @@
-// function addTwoInputNumbers(number1, number2) {
-//     return "Adding " + number1 + " with " + number2 + " gives you a result of: " + (number1 + number2)
-// }
-// console.log(addTwoInputNumbers(25, 15));
+function addTwoInputNumbers(number1, number2) {
+    return "Adding " + number1 + " with " + number2 + " gives you a result of: " + (number1 + number2)
+}
+console.log(addTwoInputNumbers(25, 15));
 
-////////
+//////
 
 function largeInputNumbers(num1, num2, num3) {
     return Math.max + num1, num2, num3
