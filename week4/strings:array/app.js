@@ -15,14 +15,14 @@
 
 // // 2) Make a function that returns a number half the length, and rounded down. You'll need to use Math.floor().
 
-var str = "capreases";
-var alpha = "abcdefghij"
-function findMiddleIndex (Juan){
-var n = (Juan.length / 2);
-console.log(Math.floor(n))
-}
-findMiddleIndex(str)
-findMiddleIndex(alpha)
+// var str = "capreases";
+// var alpha = "abcdefghij"
+// function findMiddleIndex (Juan){
+// var n = (Juan.length / 2);
+// console.log(Math.floor(n))
+// }
+// findMiddleIndex(str)
+// findMiddleIndex(alpha)
 
 
 // // 3) Make a function that uses slice() and the other functions you've written to return the first half of the string.
