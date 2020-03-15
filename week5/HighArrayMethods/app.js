@@ -152,7 +152,7 @@
 //     {name: 'Kanye West' , age: 16},
 //     {name: 'Bob Ziroll' , age: 100},
 // ]
-  
+
 // const result = readyToPutInTheDOM.map(function(dom){
 //     return '<h1>' + dom.name + "</h1>" + '<h2>' + dom.age + '</h2>'
 // })
@@ -176,14 +176,14 @@
 // 2) Turn an array of numbers into a long string of all those numbers. 
 // Didnt work 
 
-const stringConcat = [1,2,3]
+const stringConcat = [1, 2, 3]
 
-const result = stringConcat.join(function(final){
-   
-   return final 
+const result = stringConcat.join(function (final) {
+
+    return final
 })
 console.log(result)
-//***** 
+//*****
 
 // 3) Turn an array of voter objects into a count of how many people voted
 
@@ -211,7 +211,7 @@ console.log(result)
 // console.log(result)
 
 
-//***** not finished with these two
+//***** not finished with these three
 
 // Note: You don't necessarily have to use reduce for this, so try to think of multiple ways you could solve this.
 
