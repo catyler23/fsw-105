@@ -2,39 +2,39 @@
 // Use the built-in array method .filter() to solve all of these problems:
 // 1) Given an array of numbers, return a new array that has only the numbers that are 5 or greater.
 
-// const fiveAndGreaterOnly = [3,6,8,2]
-// const result1 = fiveAndGreaterOnly.filter(function(num){
-//     if (num > 5)
-//     return num
-// })
-// console.log(result1);
+const fiveAndGreaterOnly = [3, 6, 8, 2]
+const result1 = fiveAndGreaterOnly.filter(function (num) {
+    if (num > 5)
+        return num
+})
+console.log(result1);
 
 
 //***** 
 
 // 2) Given an array of numbers, return a new array that only includes the even numbers.
 
-// const evensOnly = [3,6,8,2]
-// const result2 = evensOnly.filter(function(num){
-//     if (num % 2 === 0){
-//         return num
-//     }
-// })
-//     console.log(result2)
+const evensOnly = [3, 6, 8, 2]
+const result2 = evensOnly.filter(function (num) {
+    if (num % 2 === 0) {
+        return num
+    }
+})
+console.log(result2)
 
 //***** 
 
 //3) Given an array of strings, return a new array that only includes those that are 5 characters or fewer in length
 
-const fiveCharactersOrFewerOnly = ['dog', 'wolf', 'by', 'family','eaten','camping']
+const fiveCharactersOrFewerOnly = ['dog', 'wolf', 'by', 'family', 'eaten', 'camping']
 
-// const result3 = fiveCharactersOrFewerOnly.filter(function(char){
-//     if (char.length <= 5){
-//         return char
-//     }
+const result3 = fiveCharactersOrFewerOnly.filter(function (char) {
+    if (char.length <= 5) {
+        return char
+    }
 
-// })
-//  console.log(result3)
+})
+console.log(result3)
 
 
 //***** 
@@ -42,18 +42,18 @@ const fiveCharactersOrFewerOnly = ['dog', 'wolf', 'by', 'family','eaten','campin
 // 4) Given an array of people objects, return a new array that has filtered out all those who don't belong to the club.
 
 const peopleWhoBelongToTheIlluminati = [
-    {name: 'Angelina Jolie' , member: true},
-    {name: 'Eric Jones' , member: false},
-    {name: 'Paris Hilton', member: true},
-    {name: 'Kanye West' , member: false},
-    {name: 'Bob Ziroll', member: true},
+    { name: 'Angelina Jolie', member: true },
+    { name: 'Eric Jones', member: false },
+    { name: 'Paris Hilton', member: true },
+    { name: 'Kanye West', member: false },
+    { name: 'Bob Ziroll', member: true },
 ]
 
-// const result4 = peopleWhoBelongToTheIlluminati.filter(function(belong){
-//     if(belong.member === true)
-//     return belong
-// })
-//    console.log(result4)
+const result4 = peopleWhoBelongToTheIlluminati.filter(function (belong) {
+    if (belong.member === true)
+        return belong
+})
+console.log(result4)
 
 //***** 
 
@@ -61,17 +61,17 @@ const peopleWhoBelongToTheIlluminati = [
 
 
 const ofAge = [
-    {name: 'Angelina Jolie' , age: 80},
-    {name: 'Eric Jones' , age: 2},
-    {name: 'Paris Hilton' , age: 5},
-    {name: 'Kanye West' , age: 16},
-    {name: 'Bob Ziroll' , age: 100},
+    { name: 'Angelina Jolie', age: 80 },
+    { name: 'Eric Jones', age: 2 },
+    { name: 'Paris Hilton', age: 5 },
+    { name: 'Kanye West', age: 16 },
+    { name: 'Bob Ziroll', age: 100 },
 ]
-// const result5 = ofAge.filter(function(ages){
-//     if (ages.age > 18)
-//     return ages
-// })
-//  console.log(result5)
+const result5 = ofAge.filter(function (ages) {
+    if (ages.age > 18)
+        return ages
+})
+console.log(result5)
 
 
 //--------------------------------
@@ -79,98 +79,98 @@ const ofAge = [
 // Use the built-in .map() method on arrays to solve all of these problems:
 // 1) Make an array of numbers that are doubles of the first array
 
-const doubleNumbers = [2,5,100]
-// const result6 = doubleNumbers.map(function(num){
-//     return num * 2
-// })
-//  console.log(result6)
+const doubleNumbers = [2, 5, 100]
+const result6 = doubleNumbers.map(function (num) {
+    return num * 2
+})
+console.log(result6)
 
 //***** 
 
 // 2) Take an array of numbers and make them strings
 
-const stringItUp = [2,5,100]
-// const result7 = stringItUp.map(function(num){
-//     return num.toString()
-// })
-//     console.log(result7)
+const stringItUp = [2, 5, 100]
+const result7 = stringItUp.map(function (num) {
+    return num.toString()
+})
+console.log(result7)
 
 //***** 
 
 // 3) Capitalize each of an array of names
 
-const capitalizeNames = [ 'john', 'JACOB', 'jinGleHeimer', 'schmidt']
-// const result8 = capitalizeNames.map(function(name){
-//     return name.charAt(0).toUpperCase() + name.substr(1)
-// })
-//     console.log(result8)
+const capitalizeNames = ['john', 'JACOB', 'jinGleHeimer', 'schmidt']
+const result8 = capitalizeNames.map(function (name) {
+    return name.charAt(0).toUpperCase() + name.substr(1)
+})
+console.log(result8)
 
 //***** 
 
 // 4) Make an array of strings of the names
 
 const nameOnly = [
-    {name: 'Angelina Jolie' , age: 80},
-    {name: 'Eric Jones' , age: 2},
-    {name: 'Paris Hilton' , age: 5},
-    {name: 'Kanye West' , age: 16},
-    {name: 'Bob Ziroll' , age: 100},
+    { name: 'Angelina Jolie', age: 80 },
+    { name: 'Eric Jones', age: 2 },
+    { name: 'Paris Hilton', age: 5 },
+    { name: 'Kanye West', age: 16 },
+    { name: 'Bob Ziroll', age: 100 },
 ]
 
-// const result9 = nameOnly.map(function(names){
-//     return names.name
-// })
-// console.log(result9)
+const result9 = nameOnly.map(function (names) {
+    return names.name
+})
+console.log(result9)
 
 //***** 
 
 // 5) Make an array of strings of the names saying whether or not they can go to The Matrix
 
 const makeStrings = [
-    {name: 'Angelina Jolie' , age: 80},
-    {name: 'Eric Jones' , age: 2},
-    {name: 'Paris Hilton' , age: 5},
-    {name: 'Kanye West' , age: 16},
-    {name: 'Bob Ziroll' , age: 100},
+    { name: 'Angelina Jolie', age: 80 },
+    { name: 'Eric Jones', age: 2 },
+    { name: 'Paris Hilton', age: 5 },
+    { name: 'Kanye West', age: 16 },
+    { name: 'Bob Ziroll', age: 100 },
 ]
 
-// const result10 = makeStrings.map(function(string){
-//     if( string.age >= 18)
-//     return (string.name + ' can go see the matrix')
-//     else(string.age <= 18)
-//     return (string.name + " is under age")
-// })
-//  console.log(result10)
+const result10 = makeStrings.map(function (string) {
+    if (string.age >= 18)
+        return (string.name + ' can go see the matrix')
+    else (string.age <= 18)
+    return (string.name + " is under age")
+})
+console.log(result10)
 
 //***** 
 
 // 6) Make an array of the names in h1s, and the ages in h2s
 
 const readyToPutInTheDOM = [
-    {name: 'Angelina Jolie' , age: 80},
-    {name: 'Eric Jones' , age: 2},
-    {name: 'Paris Hilton' , age: 5},
-    {name: 'Kanye West' , age: 16},
-    {name: 'Bob Ziroll' , age: 100},
+    { name: 'Angelina Jolie', age: 80 },
+    { name: 'Eric Jones', age: 2 },
+    { name: 'Paris Hilton', age: 5 },
+    { name: 'Kanye West', age: 16 },
+    { name: 'Bob Ziroll', age: 100 },
 ]
 
-// const result11 = readyToPutInTheDOM.map(function(dom){
-//     return '<h1>' + dom.name + "</h1>" + '<h2>' + dom.age + '</h2>'
-// })
-// console.log(result11)
+const result11 = readyToPutInTheDOM.map(function (dom) {
+    return '<h1>' + dom.name + "</h1>" + '<h2>' + dom.age + '</h2>'
+})
+console.log(result11)
 
 //---------------------------------
 
 // Use the built-in .reduce() method on arrays to solve all of these problems:
 // 1) Turn an array of numbers into a total of all the numbers
 
-const total = [1,2,3]
+const total = [1, 2, 3]
 
-// const result12 = total.reduce(function(final , num){
-//     final += num
-//     return final
-// })
-//  console.log(result12)
+const result12 = total.reduce(function (final, num) {
+    final += num
+    return final
+})
+console.log(result12)
 
 //***** 
 
@@ -179,39 +179,39 @@ const total = [1,2,3]
 
 const stringConcat = [1, 2, 3]
 
-// const result13 = stringConcat.reduce(function(final,concats) {
-//     return final.concat(concats);
-    
+const result13 = stringConcat.reduce(function (final, concats) {
+    return final.concat(concats);
 
-// },[])
-// console.log(result13)
+
+}, [])
+console.log(result13)
 
 //*****
 
 // 3) Turn an array of voter objects into a count of how many people voted
 
 const voters = [
-    { name: "Bob", age: 30 , voted: true },
+    { name: "Bob", age: 30, voted: true },
     { name: "Jake", age: 32, voted: true },
     { name: "Kate", age: 25, voted: false },
     { name: "Sam", age: 20, voted: false },
-    { name: "Phil", age: 21, voted: true},
+    { name: "Phil", age: 21, voted: true },
     { name: "Ed", age: 55, voted: true },
-    { name: "Tami",age: 54, voted: true },
-    { name: "Mary", age: 31, voted: false},
+    { name: "Tami", age: 54, voted: true },
+    { name: "Mary", age: 31, voted: false },
     { name: "Becky", age: 43, voted: false },
     { name: "Joey", age: 41, voted: true },
     { name: "Jeff", age: 30, voted: true },
-    { name: "Zack",age: 19, voted: false },
+    { name: "Zack", age: 19, voted: false },
 ]
 
-// const result = voters.reduce(function(final,voter){
-//     if(voter.voted){
-//         final++
-//     }
-//     return final
-// }, 0)
-// console.log(result)
+const result = voters.reduce(function (final, voter) {
+    if (voter.voted) {
+        final++
+    }
+    return final
+}, 0)
+console.log(result)
 
 
 //***** not finished with these three
@@ -220,15 +220,15 @@ const voters = [
 
 // 4) Given an array of all your wishlist items, figure out how much it would cost to just buy everything at once
 
-function shoppingSpree
+// function shoppingSpree
 
-let wishlist = [
-    {title: 'Tesla Model S', price: 90000},
-    {title: '4 carat diamond ring', price: 45000},
-    {title: 'Fancy hancky Sack', price: 5},
-    {title: 'Gold fidgit spinner', price: 2000},
-    {title: 'A second Telsa Model S', price: 90000}
-]
+// let wishlist = [
+//     {title: 'Tesla Model S', price: 90000},
+//     {title: '4 carat diamond ring', price: 45000},
+//     {title: 'Fancy hancky Sack', price: 5},
+//     {title: 'Gold fidgit spinner', price: 2000},
+//     {title: 'A second Telsa Model S', price: 90000}
+// ]
 
 
 //***** 
@@ -247,51 +247,52 @@ let wishlist = [
 // Use the built-in .sort() method on arrays to solve all of these problems:
 // 1) Sort an array from smallest number to largest
 
-const leastToGreatest = [1,3,5,2,90,20]
-// leastToGreatest.sort(function(a,b){
-//     return a - b
-// })
-// console.log(leastToGreatest)
+const leastToGreatest = [1, 3, 5, 2, 90, 20]
+leastToGreatest.sort(function (a, b) {
+    return a - b
+})
+console.log(leastToGreatest)
 
 // 2) Sort an array from largest number to smallest
 
-const greatestToLeast = [1,3,5,2,90,20]
-// greatestToLeast.sort(function(a,b){
-//     return b - a
-// })
-// console.log(greatestToLeast)
+const greatestToLeast = [1, 3, 5, 2, 90, 20]
+greatestToLeast.sort(function (a, b) {
+    return b - a
+})
+console.log(greatestToLeast)
 
 
 // 3) Sort an array from shortest string to longest
 
 const lengthSort = ['dog', 'wolf', 'by', 'family', 'eaten']
 
-// lengthSort.sort(function(a, b){
-//     return a.length - b.length
-// })
-// console.log(lengthSort)
+lengthSort.sort(function (a, b) {
+    return a.length - b.length
+})
+console.log(lengthSort)
 
 // 4) Sort an array alphabetically
 
 const alphabetical = ['dog', 'wolf', 'by', 'family', 'eaten']
-// alphabetical.sort(function(a , b){
-//      if(a < b) { 
-//         return - 1; }
-// })
-// console.log(alphabetical)
+alphabetical.sort(function (a, b) {
+    if (a < b) {
+        return - 1;
+    }
+})
+console.log(alphabetical)
 
 // 5) Sort the objects in the array by age
 
 const byAge = [
-    { name: 'Quiet Samuari', age: 22},
-    { name: 'Arrogant Ambassador', age: 100},
-    { name: 'Missunderstood Observer', age: 2},
-    { name: 'Unlucky Swami', age: 77},
+    { name: 'Quiet Samuari', age: 22 },
+    { name: 'Arrogant Ambassador', age: 100 },
+    { name: 'Missunderstood Observer', age: 2 },
+    { name: 'Unlucky Swami', age: 77 },
 ]
 
-// byAge.sort(function(a,b){
-//     if (a.age < b.age) {
-//         return - 1
-//     }
-// })
-// console.log(byAge)
+byAge.sort(function (a, b) {
+    if (a.age < b.age) {
+        return - 1
+    }
+})
+console.log(byAge)
